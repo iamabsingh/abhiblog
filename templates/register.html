@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+<body style="color: Lightskyblue">
+    <h1 style="color: Lightskyblue">Register</h1>
+    <div class="row" style="color: Lightskyblue">
+        <div class="col-md-4">
+            {{ wtf.quick_form(form) }}
+        </div>
+    </div>
+{% endblock %}
